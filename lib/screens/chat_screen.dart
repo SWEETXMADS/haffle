@@ -19,6 +19,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   void initState() {
+
     super.initState();
 
     getCurrentuser();
