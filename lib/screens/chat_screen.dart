@@ -11,6 +11,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final messagetextcontroller = TextEditingController();
   final _auth  = FirebaseAuth.instance;
   final _firestore = FirebaseFirestore.instance;
+
   late User loggedInUser;
   late String messagetext;
   final Stream<QuerySnapshot> _usersStream = FirebaseFirestore.instance.collection('messages').snapshots();
