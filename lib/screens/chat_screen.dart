@@ -131,6 +131,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       style: kSendButtonTextStyle,
 
                     ),
+
                   ),
                 ],
               ),
